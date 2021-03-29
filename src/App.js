@@ -6,7 +6,6 @@ import Tab from "react-bootstrap/Tab";
 import TableContainer from "./components/TableContainer";
 import { connect } from "react-redux";
 import * as actionTypes from "./constants/actions";
-import Button from "react-bootstrap/Button";
 
 class App extends React.Component {
   handleUnitChange(unit) {
@@ -35,7 +34,6 @@ class App extends React.Component {
             <TableContainer unitType="time" />
           </Tab>
         </Tabs>
-        <Button> Download App </Button>
       </div>
     );
   }

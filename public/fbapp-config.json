@@ -1,0 +1,11 @@
+{
+  "instant_games": {
+    "platform_version": "RICH_GAMEPLAY",
+    "custom_update_templates": {
+      "pass_score": {
+        "example": "Mary just scored 100."
+      }
+    },
+      "navigation_menu_version": "NAV_FLOATING"
+  }
+}
